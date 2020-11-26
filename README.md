@@ -19,20 +19,10 @@ Try it online at https://letsmeet.no. You can add /roomname to the URL for speci
 
 If you want the automatic approach, you can find a docker image [here](https://hub.docker.com/r/misi/mm/).
 
-## Ansible
-
-If you want the ansible approach, you can find ansible role [here](https://github.com/misi/mm-ansible/).
-[![asciicast](https://asciinema.org/a/311365.svg)](https://asciinema.org/a/311365)
-
 ## Package Installation
 
 If you want to install it on the Debian & Ubuntu based operating systems.
 
-* Prerequisites:
-multiparty-meeting will run on nodejs v10.x and later versions. (v12.x has a know issue for now, please until it will be fixed use the 10.x version)
-To install see here [here](https://github.com/nodesource/distributions/blob/master/README.md#debinstall).
-
-* Download .deb package from [here](https://github.com/havfo/multiparty-meeting/actions?query=workflow%3ADeployer+branch%3Amaster+is%3Asuccess) (job artifact)
 
 * Unzip the file
 
@@ -165,15 +155,6 @@ To integrate with an LMS (e.g. Moodle), have a look at [LTI](LTI/LTI.md).
 * Subscribe: lists.edumeet.org/sympa/subscribe/community/
 * Open archive: lists.edumeet.org/sympa/arc/community/
 
-## Authors
-
-* Håvar Aambø Fosstveit
-* Stefan Otto
-* Mészáros Mihály
-
-This started as a fork of the [work](https://github.com/versatica/mediasoup-demo) done by:
-
-* Iñaki Baz Castillo [[website](https://inakibaz.me)|[github](https://github.com/ibc/)]
 
 ## License
 
